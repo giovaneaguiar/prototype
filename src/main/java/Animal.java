@@ -17,6 +17,10 @@ public abstract class Animal implements Cloneable {
         return especie;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     @Override
     public String toString() {
         return "Animal{" +
